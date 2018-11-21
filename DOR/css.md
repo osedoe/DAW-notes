@@ -227,4 +227,29 @@ Atajo para `flex-grow`, `flex-shrink` _opt_ y `flex-basis` _opt_. Con valores po
 
 #### CSS Grid
 
+##### Cheatsheet
+
+![CSS-Grid1](https://pbs.twimg.com/media/DZ2JTBLWkAA7xxu.jpg);
+
+##### Resumen
+
 ![CSS-Grid](./../img/css-grid.png)
+
+##### Grid layout concepts
+
+- **Grid-line:** Líneas entre los diferentes containers.
+- **Grid-track:** Tuplas o columnas.
+- **Gris-cell:** Cada cuadrado que se pueda dibujar. Puede o no coincidir con los container hijos.
+- **Grid-area:** Container hijo definidio como tal.
+- **Grid-gap:** Espacio entre los distintos containers.
+  
+##### Definiendo el grid desde el padre
+
+- **Display:** grid | inline-grid | subgrid;
+- **Grid-template-rows:** <'track-size'> | <'line-name'> <'track-size'>;
+- **Grid-template-columns:** <'track-size'> | <'line-name'> <'track-size'>;
+- **Grid-template-areas:** "<'grid-area-name'> | . | none | ..."
+                           " ... ";
+- **Grid-template:** none | <'grid-template-rows'> / <'grid-template-columns'>;
+
+##### Alineando
