@@ -50,6 +50,10 @@ El DNS tiene varios objetivos:
 
 ## Tipos de servidores DNS
 
+Podemos encontrar varios tipos de servidores DNS:
+
+- Servidores de zona maestra: Son los denominados servidores autoritativos. Tendrán una base de datos de toda la información asociada a una zona particular, y la misma se encontrará en dos servidores el serivdor maestro primario y el servidor esclavo secundario.
+
 Existen dos tipos de servidores DNS según su método de resolución:
 
 - **Resolución iterativa:** El servidor DNS devuelve la mejor respuesta que puede ofrecer al cliente en función de su caché,, pero si no la encuentra, pasará al siguiente servidor autorizado a preguntar: y siempre comenzando por un servidor Raíz.
