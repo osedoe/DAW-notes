@@ -1,6 +1,6 @@
 # Preguntas DPL
 
-## Diff AppWeb ## PagWeb
+## Diff AppWeb vs PagWeb
 
 Una aplicacion web es una pagina que el usuario puede controlar, siendo interactica o dinamica: mientras que la pagian web es estatica de y caracter meramente informativo.
 
