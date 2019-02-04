@@ -13,7 +13,7 @@ cliente, negocio y datos.
 - La **capa de aplicación o de negocio**. Se divide en dos:
   - la _capa de presentación_ se encarga de integrar la parte dinámica con la estática, soliendo ser un servidor web.
   - La _capa lógica de negocio_: Suele llevar a cabo operaciones más complejas y se corresponde con la implantación de un servidor de aplicaciones.
-- Por último, la **capa de datos**, que se comopone de un SGBD o fichero XML o texto plano.
+- Por último, la **capa de datos**, que se compone de un SGBD o fichero XML o texto plano.
 
 ## DNS. Qué es y para qué sirve
 
